@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Banco';
+  src: url('fonts/Banco.woff2') format('woff2'),
+      url('fonts/Banco.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body {
+  width: 640px;
+  
+  font-family: "Banco", serif-sans;
+  text-transform: uppercase;
+  background-image: url("the-big-lebowski.jpg");
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+.main {
+    padding: 20px 0;
+}
+
+.header {
+  min-height: 20px;
+  padding: 5px;
+
+  text-align: center;
+
+  background-color: #b81604;
+}
+
+.link {
+  display: inline-block;
+  width: 80px;
+  margin-left: 40px;
+
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link_yellow {
+  color: yellow;
+}
+
+.main__section_motto {
+    text-align: center;
+}
+
+.par {
+    margin-top: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__title {
+  margin-top: 620px;
+  margin-bottom: 10px;
+  
+  color: yellow;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.footer {
+  padding-left: 10px;
+  font-family: serif;
+  font-size: 5px;
+  color: #fff;
+}
